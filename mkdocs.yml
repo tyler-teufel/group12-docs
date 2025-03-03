@@ -1,14 +1,36 @@
 site_name: COMP-5530 Group 12 Project Wiki
+site_url: https://tyler-teufel.github.io/group12-docs/
+site_description: Documentation for COMP-5530 Group 12 Project
+
+repo_name: tyler-teufel/group12-docs
+repo_url: https://github.com/tyler-teufel/group12-docs
 
 nav:
   - Home: index.md
-  - Homeworks: homeworks.md
-  - Project: project.md
+  - Homeworks:
+      "homework 1": homework1.md
+      "homework 2": homework2.md
+  - Project:
+      "OS Milestone 1": osms1.md
   - OpenStack Notes: openstack.md
   - Processes: processes.md
+  - Jira Board:
+      icon: simple/jira
+      link: https://auburn-comp-5530-group-12.atlassian.net/jira/software/projects/OSP/boards/1/backlog
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 theme:
   name: material
+  icon:
+    logo: simple/jira
+
+  features:
+    - navigation.instant
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -21,3 +43,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+
+extra:
+  social:
+    - icon: simple/jira
+      link: https://auburn-comp-5530-group-12.atlassian.net/jira/software/projects/OSP/boards/1/backlog
