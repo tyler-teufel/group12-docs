@@ -1,8 +1,8 @@
-# Welcome to the Group 12 Wiki powered by mkdocs!
+# Welcome to the Group 12 Wiki powered by mkdocs
 
 The purpose of this wiki is to host our documentation in a centralized place, without needing to hunt through our jira boad.
 
-## Important links:
+## Important links
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
